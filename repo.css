@@ -1,3 +1,4 @@
+/*
 body{
     font-family: 'Merriweather', serif;
 }
@@ -9,11 +10,12 @@ body{
     color: #fd6e0a;
     border: 0px;
 }
-/* ami koreci*/
+/* ami koreci
 nav{
     display: flex;
     justify-content: end;
     border: 3px solid purple;
+    grid-area: auto;
 }
 .nav-cacca{
     color:black;
@@ -36,4 +38,14 @@ nav a{
     text-decoration: none;
     color: gray;
 
+}
+*/
+.{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0,auto;
 }
