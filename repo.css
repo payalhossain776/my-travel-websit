@@ -4,21 +4,33 @@ body{
 .main-cool{
     color: #fd6e0a;
 }
+.btn-primary{
+    border-radius: 5px;
+    color: #fd6e0a;
+    border: 0px;
+}
 /* ami koreci*/
 nav{
     display: flex;
+    justify-content: end;
+    border: 3px solid purple;
 }
 .nav-cacca{
     color:black;
     font-size: 35px;
     font-weight: 600px;
 }
+ul > h1{
+display: flex;
+border: 3px solid gold;
+}
 nav > ul{
     display: flex;
 }
 nav li{
     list-style: none;
-    margin-right: 60px;
+    margin-right: 46px;
+   
 }
 nav a{
     text-decoration: none;
