@@ -1,0 +1,27 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Work+Sans:wght@600;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Work Sans', sans-serif;;
+}
+/*--navber start--*/
+.nav-section{
+    max-width: 1440px;
+    background-color: aqua;
+}
+.nav-container{
+    border: 3px solid red;
+    min-height: 15px;
+    display: flex;
+    align-items: center;
+}
+.nav-container img{
+    width: 48px;
+    height: 56px;
+}
+.nav-container p{
+    font-size: 36px;
+}
+.tool{
+    color:  #FF5400;
+    font-weight: 800;
+}
