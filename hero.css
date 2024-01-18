@@ -6,17 +6,20 @@
 /*--navber start--*/
 .nav-section{
     max-width: 1440px;
-    background-color: aqua;
+    margin: auto;
+    display: flex;
 }
 .nav-container{
-    border: 3px solid red;
     min-height: 15px;
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .nav-container img{
-    width: 48px;
-    height: 56px;
+    width: 52px;
+    height: 50px;
+    padding: 0 20px;
+
 }
 .nav-container p{
     font-size: 36px;
@@ -24,4 +27,15 @@
 .tool{
     color:  #FF5400;
     font-weight: 800;
+}
+.item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424247;
 }
