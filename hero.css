@@ -70,16 +70,25 @@
     font-weight: 800;
     font-size: 64px;
 }
-/*------bennar section----*/
+/*------banner section----*/
 /*----main section start---*/
 .mountain{
     border: 3px solid teal;
-    margin-top: 40px;
-    padding: 20px;
+    max-width: 1440px;
+    width: 50%; 
+   
+    
+}
+.sun-shade{
+    display: grid;
+    grid-template-rows: auto;
+
+ 
+
 }
 .sun-shade h2{
      font-size: 40px;
-     
+     font-weight: 800;
 }
 
 /*------main section end---*/
