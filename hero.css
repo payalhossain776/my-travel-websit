@@ -45,50 +45,45 @@
 /*---nav end---*/
 /*-----banner section---*/
 .banner-section{
-    border: 3px solid darkmagenta;
-    width: 100%;
-    height: 500px; 
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%) 
-    url(Images/Group\ 13\ \(1\)\ \(1\).png);
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    display: flex;
+    max-width: 1440px;
+    margin:0 auto;
+    min-height: 5px;
+    border: 3px solid teal;
+}
+.banner-section img{
+    margin: 0px;
+    padding: 0px;
+    width: 1440px;
+    height: 500px;
+}
+.banner-section .banner-container{
+    display: grid;
     justify-content: center;
     align-items: center;
+
 }
-.banner-container::after{
-    position: absolute;
-   
-}
-.banner-container{
-    width: 50%;
-    height: 50px;
-    color: #FFF;
-}
-.banner-container h1{
-    font-weight: 800;
-    font-size: 64px;
-}
+
 /*------banner section----*/
 /*----main section start---*/
 .mountain{
-    border: 3px solid teal;
     max-width: 1440px;
-    width: 50%; 
-   
-    
+    margin:40px auto;
+    min-height: 540px; 
+    border: 2px solid teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
-.sun-shade{
-    display: grid;
-    grid-template-rows: auto;
-
- 
-
+.text-container-5{
+border: 3px solid red;
+width: 50%;
+display: grid;
+justify-content: center;
 }
-.sun-shade h2{
-     font-size: 40px;
-     font-weight: 800;
+.img-container-5{
+    border: 3px solid greenyellow;
+    width: 50%;
+    display: flex;
+    justify-content: end;
 }
-
 /*------main section end---*/
